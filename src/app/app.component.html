@@ -4,12 +4,12 @@
 
   <table>
     <tr>
-      <td>Toppings</td>
-      <td>Pizza Size</td>
+      <td class="no-bottom-border">Toppings</td>
+      <td class="no-right-border">Pizza Size</td>
     </tr>
 
     <tr>
-      <td></td>
+      <td class="no-top-border"></td>
       <td>Small ($5)</td>
       <td>Medium ($7)</td>
       <td>Large ($8)</td>
@@ -20,80 +20,80 @@
 
     <tr>
       <td>Tomatoes ($1.00)</td>
-      <td>
+      <td class="checkbox-area">
         <input type="checkbox" name="smallTomatoes" [(ngModel)]="smallTomatoes" (change)="onClickSmallPizza($event, smallTomatoes)" />
       </td>
-      <td>
+      <td class="checkbox-area">
         <input type="checkbox" name="mediumTomatoes" [(ngModel)]="mediumTomatoes" (change)="onClickMediumPizza($event, mediumTomatoes)" />
       </td>
-      <td>
+      <td class="checkbox-area">
         <input type="checkbox" name="largeTomatoes" [(ngModel)]="largeTomatoes" (change)="onClickLargePizza($event, largeTomatoes)" />
       </td>
-      <td>
+      <td class="checkbox-area">
         <input type="checkbox" name="extraLargeTomatoes" [(ngModel)]="extraLargeTomatoes" (change)="onClickExtraLargePizza($event, extraLargeTomatoes)" />
       </td>
     </tr>
     
     <tr>
       <td>Onions ($0.50)</td>
-      <td>
+      <td class="checkbox-area">
         <input type="checkbox" name="smallOnions" [(ngModel)]="smallOnions" (change)="onClickSmallPizza($event, smallOnions)" />
       </td>
-      <td>
+      <td class="checkbox-area">
         <input type="checkbox" name="mediumOnions" [(ngModel)]="mediumOnions" (change)="onClickMediumPizza($event, mediumOnions)" />
       </td>
-      <td>
+      <td class="checkbox-area">
         <input type="checkbox" name="largeOnions" [(ngModel)]="largeOnions" (change)="onClickLargePizza($event, largeOnions)" />
       </td>
-      <td>
+      <td class="checkbox-area">
         <input type="checkbox" name="extraLargeOnions" [(ngModel)]="extraLargeOnions" (change)="onClickExtraLargePizza($event, extraLargeOnions)" />
       </td>
     </tr>
   
     <tr>
       <td>Bell pepper ($1.00)</td>
-      <td>
+      <td class="checkbox-area">
         <input type="checkbox" name="smallBell" [(ngModel)]="smallBell" (change)="onClickSmallPizza($event, smallBell)" />
       </td>
-      <td>
+      <td class="checkbox-area">
         <input type="checkbox" name="mediumBell" [(ngModel)]="mediumBell" (change)="onClickMediumPizza($event, mediumBell)" />
       </td>
-      <td>
+      <td class="checkbox-area">
         <input type="checkbox" name="largeBell" [(ngModel)]="largeBell" (change)="onClickLargePizza($event, largeBell)" />
       </td>
-      <td>
+      <td class="checkbox-area">
         <input type="checkbox" name="extraLargeBell" [(ngModel)]="extraLargeBell" (change)="onClickExtraLargePizza($event, extraLargeBell)" />
       </td>
     </tr>
   
     <tr>
       <td>Mushrooms ($1.20)</td>
-      <td>
+      <td class="checkbox-area">
         <input type="checkbox" name="smallMushrooms" [(ngModel)]="smallMushrooms" (change)="onClickSmallPizza($event, smallMushrooms)" />
       </td>
-      <td>
+      <td class="checkbox-area">
         <input type="checkbox" name="mediumMushrooms" [(ngModel)]="mediumMushrooms" (change)="onClickMediumPizza($event, mediumMushrooms)" />
       </td>
-      <td>
+      <td class="checkbox-area">
         <input type="checkbox" name="largeMushrooms" [(ngModel)]="largeMushrooms" (change)="onClickLargePizza($event, largeMushrooms)" />
       </td>
-      <td>
+      <td class="checkbox-area">
         <input type="checkbox" name="extraLargeMushrooms" [(ngModel)]="extraLargeMushrooms" (change)="onClickExtraLargePizza($event, extraLargeMushrooms)" />
       </td>
     </tr>
   
     <tr>
       <td>Pineapple ($0.75)</td>
-      <td>
+      <td class="checkbox-area">
         <input type="checkbox" name="smallPineapple" [(ngModel)]="smallPineapple" (change)="onClickSmallPizza($event, smallPineapple)" />
       </td>
-      <td>
+      <td class="checkbox-area">
         <input type="checkbox" name="mediumPineapple" [(ngModel)]="mediumPineapple" (change)="onClickMediumPizza($event, mediumPineapple)" />
       </td>
-      <td>
+      <td class="checkbox-area">
         <input type="checkbox" name="largePineapple" [(ngModel)]="largePineapple" (change)="onClickLargePizza($event, largePineapple)" />
       </td>
-      <td>
+      <td class="checkbox-area">
         <input type="checkbox" name="extraLargePineapple" [(ngModel)]="extraLargePineapple" (change)="onClickExtraLargePizza($event, extraLargePineapple)" />
       </td>
     </tr>
@@ -102,72 +102,72 @@
 
     <tr>
       <td>Sausage ($1.00)</td>
-      <td>
+      <td class="checkbox-area">
         <input type="checkbox" name="smallSausage" [(ngModel)]="smallSausage" (change)="onClickSmallPizza($event, smallSausage)" />
       </td>
-      <td>
+      <td class="checkbox-area">
         <input type="checkbox" name="mediumSausage" [(ngModel)]="mediumSausage" (change)="onClickMediumPizza($event, mediumSausage)" />
       </td>
-      <td>
+      <td class="checkbox-area">
         <input type="checkbox" name="largeSausage" [(ngModel)]="largeSausage" (change)="onClickLargePizza($event, largeSausage)" />
       </td>
-      <td>
+      <td class="checkbox-area">
         <input type="checkbox" name="extraLargeSausage" [(ngModel)]="extraLargeSausage" (change)="onClickExtraLargePizza($event, extraLargeSausage)" />
       </td>
     </tr>
 
     <tr>
       <td>Pepperoni ($2.00)</td>
-      <td>
+      <td class="checkbox-area">
         <input type="checkbox" name="smallPepperoni" [(ngModel)]="smallPepperoni" (change)="onClickSmallPizza($event, smallPepperoni)" />
       </td>
-      <td>
+      <td class="checkbox-area">
         <input type="checkbox" name="mediumPepperoni" [(ngModel)]="mediumPepperoni" (change)="onClickMediumPizza($event, mediumPepperoni)" />
       </td>
-      <td>
+      <td class="checkbox-area">
         <input type="checkbox" name="largePepperoni" [(ngModel)]="largePepperoni" (change)="onClickLargePizza($event, largePepperoni)" />
       </td>
-      <td>
+      <td class="checkbox-area">
         <input type="checkbox" name="extraLargePepperoni" [(ngModel)]="extraLargePepperoni" (change)="onClickExtraLargePizza($event, extraLargePepperoni)" />
       </td>
     </tr>
 
     <tr>
       <td>Barbecue chicken ($3.00)</td>
-      <td>
+      <td class="checkbox-area">
         <input type="checkbox" name="smallChicken" [(ngModel)]="smallChicken" (change)="onClickSmallPizza($event, smallChicken)" />
       </td>
-      <td>
+      <td class="checkbox-area">
         <input type="checkbox" name="mediumChicken" [(ngModel)]="mediumChicken" (change)="onClickMediumPizza($event, mediumChicken)" />
       </td>
-      <td>
+      <td class="checkbox-area">
         <input type="checkbox" name="largeChicken" [(ngModel)]="largeChicken" (change)="onClickLargePizza($event, largeChicken)" />
       </td>
-      <td>
+      <td class="checkbox-area">
         <input type="checkbox" name="extraLargeChicken" [(ngModel)]="extraLargeChicken" (change)="onClickExtraLargePizza($event, extraLargeChicken)" />
       </td>
     </tr>
 
-    <tr>
-      <td>Total</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+    <tr class="total">
+      <td class="no-right-border">Total</td>
+      <td class="no-right-border no-left-border"></td>
+      <td class="no-right-border no-left-border"></td>
+      <td class="no-right-border no-left-border"></td>
+      <td class="no-left-border"></td>
     </tr>
   
-    <tr>
+    <tr class="custom-small-height">
       <td>Offer</td>
       <td></td>
       <td *ngIf="!offer1"></td>
-      <td *ngIf="offer1">
+      <td *ngIf="offer1" class="center">
         Offer 1 
         <span>
           <input type="checkbox" name="offer1Check" disabled checked/>
         </span>
       </td>
       <td *ngIf="!offer3"></td>
-      <td *ngIf="offer3">
+      <td *ngIf="offer3" class="center">
         Offer 3
         <span>
           <input type="checkbox" name="offer3Check" disabled checked/>
@@ -176,24 +176,24 @@
       <td></td>
     </tr>
 
-    <tr>
+    <tr class="custom-medium-height">
       <td></td>
-      <td>{{smallTotal > 0 ? '$' + smallTotal : ''}}</td>
-      <td *ngIf="!offer1">{{mediumTotal > 0 ? '$' + mediumTotal : ''}}</td>
-      <td *ngIf="offer1">
-        <div>
-          <span>{{mediumTotal > 0 ? '$' + mediumTotal : ''}}</span>
+      <td class="center">{{smallTotal > 0 ? '$' + smallTotal : ''}}</td>
+      <td *ngIf="!offer1" class="center">{{mediumTotal > 0 ? '$' + mediumTotal : ''}}</td>
+      <td *ngIf="offer1" class="center">
+        <div class="grid">
+          <span class="strikethrough">{{mediumTotal > 0 ? '$' + mediumTotal : ''}}</span>
           <span>$5</span>
         </div>
       </td>
-      <td *ngIf="!offer3">{{largeTotal > 0 ? '$' + largeTotal : ''}}</td>
-      <td *ngIf="offer3">
-        <div>
-          <span>{{largeTotal > 0 ? '$' + largeTotal : ''}}</span>
+      <td *ngIf="!offer3" class="center">{{largeTotal > 0 ? '$' + largeTotal : ''}}</td>
+      <td *ngIf="offer3" class="center">
+        <div class="grid">
+          <span class="strikethrough">{{largeTotal > 0 ? '$' + largeTotal : ''}}</span>
           <span>{{largeTotal > 0 ? '$' + largeTotal/2 : ''}}</span>
         </div>
       </td>
-      <td>{{extraLargeTotal > 0 ? '$' + extraLargeTotal : ''}}</td>
+      <td class="center">{{extraLargeTotal > 0 ? '$' + extraLargeTotal : ''}}</td>
 
     </tr>
 
