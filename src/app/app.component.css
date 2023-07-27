@@ -1,0 +1,51 @@
+table, th , td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.checkbox-area {
+    min-width: 100px;
+    height: 50px;
+    text-align: center;
+}
+
+.no-right-border {
+    border-right: none;
+}
+
+.no-left-border {
+    border-left: none;
+}
+
+.no-top-border {
+    border-top: none;
+}
+
+.no-bottom-border {
+    border-bottom: none;
+}
+
+.custom-small-height {
+    height: 35px;
+}
+
+.custom-medium-height {
+    height: 50px;
+}
+
+.center {
+    text-align: center;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+.grid {
+    display: inline-grid;
+}
+
+.total {
+    background-color: #c1d0d3;
+}
